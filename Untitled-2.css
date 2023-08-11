@@ -1,0 +1,82 @@
+/* Reset CSS */
+body, h1, h2, p, a {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Header */
+.header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header__title {
+    font-size: 24px;
+}
+
+/* Main Content */
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.product {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.product__image {
+    max-width: 40%;
+    border-radius: 8px 0 0 8px;
+}
+
+.product__info {
+    padding: 20px;
+}
+
+.product__title {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.product__description {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.product__price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0099ff;
+    margin-bottom: 20px;
+}
+
+.buy-button {
+    display: inline-block;
+    background-color: #0099ff;
+    color: white;
+    text-align: center;
+    padding: 12px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.buy-button:hover {
+    background-color: #0077cc;
+}
